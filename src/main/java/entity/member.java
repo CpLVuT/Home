@@ -1,40 +1,51 @@
 package entity;
 
-import javax.persistence.*;
 import java.util.List;
 
-@Entity
-@Table(name = "members")
-class Members {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @Column(nullable = false)
-    private String name;
-
-
-    public Members() {
-    }
-
-    public Members(String name) {
-        this.name = name;
-    }
-
-    // Getter和Setter方法
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+class member{
+    private String Name;
+    private String Sex;
+    private String Birth;
+    private String Death;
+    private String Event;
 
     public String getName() {
-        return name;
+        return Name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        Name = name;
+    }
+
+    public String getSex() {
+        return Sex;
+    }
+
+    public void setSex(String sex) {
+        Sex = sex;
+    }
+
+    public String getBirth() {
+        return Birth;
+    }
+
+    public void setBirth(String birth) {
+        Birth = birth;
+    }
+
+    public String getDeath() {
+        return Death;
+    }
+
+    public void setDeath(String death) {
+        Death = death;
+    }
+
+    public String getEvent() {
+        return Event;
+    }
+
+    public void setEvent(String event) {
+        Event = event;
     }
 }

@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef7dab7-c8fc-4b83-bd67-9eb6fd7c0872" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/help/Gitee.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/help/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <workItem from="1687134058751" duration="46000" />
       <workItem from="1687142817702" duration="157000" />
       <workItem from="1687143002372" duration="5369000" />
-      <workItem from="1687154257421" duration="313000" />
+      <workItem from="1687154257421" duration="1152000" />
     </task>
     <servers />
   </component>
