@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef7dab7-c8fc-4b83-bd67-9eb6fd7c0872" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/User/user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,9 @@
   </component>
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2RNmfha5M5mbridyA5zjYkQRE9x" />
   <component name="ProjectLevelVcsManager">
@@ -81,7 +81,8 @@
       <updated>1687099022598</updated>
       <workItem from="1687099023634" duration="1337000" />
       <workItem from="1687100430480" duration="119000" />
-      <workItem from="1687100814607" duration="313000" />
+      <workItem from="1687100814607" duration="1883000" />
+      <workItem from="1687134058751" duration="46000" />
     </task>
     <servers />
   </component>
