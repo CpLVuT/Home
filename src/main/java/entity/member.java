@@ -2,12 +2,14 @@ package entity;
 
 import java.util.List;
 
-class member{
+public class member{
     private String Name;
     private String Sex;
     private String Birth;
     private String Death;
-    private String Event;
+    private boolean id_del;
+    private int Member_Id;
+    private int HomeTree_Id;
 
     public String getName() {
         return Name;
@@ -41,11 +43,28 @@ class member{
         Death = death;
     }
 
-    public String getEvent() {
-        return Event;
+
+    public boolean isId_del() {
+        return id_del;
     }
 
-    public void setEvent(String event) {
-        Event = event;
+    public void setId_del(boolean id_del) {
+        this.id_del = id_del;
+    }
+
+    public int getMember_Id() {
+        return Member_Id;
+    }
+
+    public void setMember_Id(int member_Id) {
+        Member_Id = member_Id;
+    }
+
+    public int getHomeTree_Id() {
+        return HomeTree_Id;
+    }
+
+    public void setHomeTree_Id(int homeTree_Id) {
+        HomeTree_Id = homeTree_Id;
     }
 }
