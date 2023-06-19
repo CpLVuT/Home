@@ -5,7 +5,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "members")
-public class Member {
+class Members {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -13,13 +13,11 @@ public class Member {
     @Column(nullable = false)
     private String name;
 
-    @OneToMany(mappedBy = "member", cascade = CascadeType.ALL)
-    private List<Event> events;
 
-    public Member() {
+    public Members() {
     }
 
-    public Member(String name) {
+    public Members(String name) {
         this.name = name;
     }
 
@@ -38,13 +36,5 @@ public class Member {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public List<Event> getEvents() {
-        return events;
-    }
-
-    public void setEvents(List<Event> events) {
-        this.events = events;
     }
 }
