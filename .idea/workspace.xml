@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef7dab7-c8fc-4b83-bd67-9eb6fd7c0872" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/HomeTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/help/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/help/课设流程简述.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Relation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/user.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,8 @@
       <workItem from="1687142817702" duration="157000" />
       <workItem from="1687143002372" duration="5369000" />
       <workItem from="1687154257421" duration="2022000" />
-      <workItem from="1687156347924" duration="2229000" />
+      <workItem from="1687156347924" duration="4398000" />
+      <workItem from="1687165196113" duration="173000" />
     </task>
     <servers />
   </component>

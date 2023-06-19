@@ -1,0 +1,5 @@
+entity\user.class
+entity\HomeTree.class
+entity\Relation.class
+entity\event.class
+entity\member.class
