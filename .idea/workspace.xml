@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ef7dab7-c8fc-4b83-bd67-9eb6fd7c0872" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/help/一些springboot.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/MemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/HomeTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Relation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/Relation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/user.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Home-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Home-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/HomeTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/Relation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="5ef7dab7-c8fc-4b83-bd67-9eb6fd7c0872" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +107,7 @@
       <workItem from="1687221920784" duration="1074000" />
       <workItem from="1687223054003" duration="3013000" />
       <workItem from="1687226992050" duration="2685000" />
-      <workItem from="1687229981028" duration="806000" />
+      <workItem from="1687229981028" duration="1121000" />
     </task>
     <servers />
   </component>
