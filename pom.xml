@@ -34,5 +34,21 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.3.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.kernol-info</groupId>
+            <artifactId>advancedcontroller-spring-boot-starter</artifactId>
+            <version>0.0.1</version>
+        </dependency>
     </dependencies>
 </project>

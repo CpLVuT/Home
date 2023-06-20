@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ef7dab7-c8fc-4b83-bd67-9eb6fd7c0872" name="更改" comment="" />
+    <list default="true" id="5ef7dab7-c8fc-4b83-bd67-9eb6fd7c0872" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/help/一些springboot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/ApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/HomeTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Relation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/Relation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Home-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Home-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/HomeTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/Relation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +49,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -64,11 +90,21 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;8cf04a9734132302f96da8e113e80ce5&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -87,6 +123,15 @@
       <workItem from="1687156347924" duration="4398000" />
       <workItem from="1687165196113" duration="173000" />
       <workItem from="1687165387068" duration="486000" />
+      <workItem from="1687174346783" duration="911000" />
+      <workItem from="1687175472342" duration="3503000" />
+      <workItem from="1687181967926" duration="1026000" />
+      <workItem from="1687183219128" duration="868000" />
+      <workItem from="1687221326005" duration="581000" />
+      <workItem from="1687221920784" duration="1074000" />
+      <workItem from="1687223054003" duration="3013000" />
+      <workItem from="1687226992050" duration="2685000" />
+      <workItem from="1687229981028" duration="806000" />
     </task>
     <servers />
   </component>
