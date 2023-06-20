@@ -11,7 +11,7 @@ import javax.persistence.Access;
 @Accessors(chain = true)
 @AllArgsConstructor
 @NoArgsConstructor//无参构造注解
-public class  member{
+public class  member extends Relation {
     private String Name;
     private String Sex;
     private String Birth;

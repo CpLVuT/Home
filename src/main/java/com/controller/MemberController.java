@@ -3,6 +3,10 @@ package com.controller;
 import com.entity.member;
 import com.mapper.MemberMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 
 public class MemberController {
     @Autowired
