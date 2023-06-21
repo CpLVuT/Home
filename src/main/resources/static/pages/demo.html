@@ -6,11 +6,17 @@
 </head>
 <body>
 
-<!---->
+
+<h1>你好</h1>
+
 <div id="app">
+    <span v-bind:title="message">
     {{message}}
+        </span>
 </div>
 
+<!--学习时类比 html css templates所以第一个使用了html-->
+<!--v-xx是指令 vue独有的方式-->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
     let vm= new Vue({

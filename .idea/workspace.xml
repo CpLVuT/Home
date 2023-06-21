@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef7dab7-c8fc-4b83-bd67-9eb6fd7c0872" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/pages/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/config/test.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/static/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/nightwatch.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/runner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/specs/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/jest.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +139,7 @@
       <workItem from="1687322728939" duration="1124000" />
       <workItem from="1687326158860" duration="212000" />
       <workItem from="1687326458541" duration="1659000" />
-      <workItem from="1687329450806" duration="903000" />
+      <workItem from="1687329450806" duration="1751000" />
     </task>
     <servers />
   </component>
@@ -203,7 +165,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/resources/static/pages/demo.html</url>
-          <line>17</line>
+          <line>25</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
