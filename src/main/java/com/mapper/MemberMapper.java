@@ -32,4 +32,5 @@ public interface MemberMapper extends BaseMapper<member> {
         buildFamilyTree(rootNode);//深搜建树
         return rootNode;
     }
+
 }

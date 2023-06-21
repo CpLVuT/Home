@@ -21,5 +21,4 @@ public class Relation {
     private int Member_Id2;
     private int Relation_Id;
     private String RelationType;
-    private boolean id_del;
 }

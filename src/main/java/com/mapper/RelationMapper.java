@@ -6,7 +6,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.entity.Relation;
 import org.springframework.stereotype.Repository;
 
-@Repository
 public interface RelationMapper extends BaseMapper<Relation> {
     default void RebuildFamilyTree(MemberMapper memberMapper, TreeNode node) {
         int member_Id = node.getMember().getMember_Id();
