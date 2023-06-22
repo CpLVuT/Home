@@ -1,0 +1,11 @@
+com\test\Application.class
+com\test\entity\user.class
+com\test\entity\Relation.class
+com\test\mapper\RelationMapper.class
+com\test\controller\MemberController.class
+com\test\entity\event.class
+com\test\entity\TreeNode.class
+com\test\service\MemberService.class
+com\test\mapper\EventMapper.class
+com\test\mapper\MemberMapper.class
+com\test\entity\member.class

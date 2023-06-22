@@ -1,9 +1,9 @@
 server:
-  port:8090
+  port:3306
 spring:
   datasource:
-    url:url=jdbc:mysql://localhost:3306/hometree?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
-    driver-class-name:com.sql.jdbc.Driver
+    url:jdbc:mysql://localhost:3306/hometree?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    driver-class-name:com.mysql.cj.jdbc.driver
     username=root
     password=123456
 
