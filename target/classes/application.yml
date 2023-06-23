@@ -1,9 +1,18 @@
-server:
-  port:3306
+# 应用名称
 spring:
+  application:
+    name: socket-demo
   datasource:
-    url:jdbc:mysql://localhost:3306/hometree?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
-    driver-class-name:com.mysql.cj.jdbc.driver
-    username=root
-    password=123456
+    name: defaultDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hometree?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: 123456
+# 应用服务 WEB 访问端口
+server:
+  port: 8088
+
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
 
