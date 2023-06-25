@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ce06953-de20-4731-b162-bea1c61fdadc" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bb69ebbe-5789-4fd6-8e07-1b50ec8331ea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bb69ebbe-5789-4fd6-8e07-1b50ec8331ea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Relation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Relation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/EventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/EventMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/MemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/RelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/RelationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/MemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +115,8 @@
       <workItem from="1687569761847" duration="1281000" />
       <workItem from="1687694509678" duration="93000" />
       <workItem from="1687694875881" duration="169000" />
-      <workItem from="1687695068298" duration="1380000" />
+      <workItem from="1687695068298" duration="2000000" />
+      <workItem from="1687697316542" duration="617000" />
     </task>
     <servers />
   </component>
