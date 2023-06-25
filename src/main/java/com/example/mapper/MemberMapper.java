@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.injector.methods.SelectById;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.entity.TreeNode;
 import com.example.entity.member;
+import com.github.jeffreyning.mybatisplus.base.MppBaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -13,7 +14,7 @@ import java.util.ArrayList;
 
 
 @Mapper
-public interface MemberMapper extends BaseMapper<member> {
+public interface MemberMapper extends MppBaseMapper<member> {
     default void buildFamilyTree(TreeNode Node){
         int member_Id = Node.getMember().getMember_Id();//获取成员id
         List<member> children = selectList(new QueryWrapper<member>()

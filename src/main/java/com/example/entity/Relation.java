@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.github.jeffreyning.mybatisplus.anno.MppMultiId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -23,9 +24,14 @@ import org.springframework.stereotype.Component;
 @NoArgsConstructor//无参构造注解
 //@TableName("Relation")
 public class Relation {
-    @TableId(value = "Member_Id1",type = IdType.INPUT)
+    @MppMultiId
     private Integer Member_Id1;
-    private int Member_Id2;
+    @MppMultiId
+    private Integer Member_Id2;
+    /*
+    这里应用了联合主键的注解
+    因为关系是两个人的事情
+     */
     private int Relation_Id;
-    private String RelationType;
+    private String Relation_Type;
 }

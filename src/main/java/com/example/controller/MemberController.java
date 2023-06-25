@@ -36,7 +36,6 @@ public class MemberController {
     在这里完成增删改查
      */
     public String MemberInsert(int Member_Id, String Name, String Sex, String Birth, String Death, int Mother_Id, int Father_ID) {
-
         return memberMapper.insert(new member(Name, Sex, Birth, Death, Member_Id, Mother_Id, Father_ID)) > 0 ? "成功！" : "失败！";
         //insert函数的返回值本来应当是整数弧，我在这里为了看到结果加了成功或者失败 因而是String类型
     }
@@ -44,7 +43,6 @@ public class MemberController {
     public String RelationInsert(int Member_Id1, int Member_Id2, int Relation_Id, String RelationType) {
         return relationMapper.insert(new Relation(Member_Id1, Member_Id2, Relation_Id, RelationType)) > 0 ? "成功！" : "失败！";
     }
-
     public String EventInesert(int Member_Id, String Event_Time, int Event_Id, String Events_Des) {
         return eventMapper.insert(new event(Member_Id, Event_Time, Event_Id, Events_Des)) > 0 ? "成功!" : "失败";
     }
@@ -57,9 +55,11 @@ public class MemberController {
     public List<member> MemeberSelect(){
         return memberMapper.selectList(null);
     }
+    @RequestMapping("/SelectEvent")
     public List<event> EventSelect(){
         return eventMapper.selectList(null);
     }
+    @RequestMapping("/SelectRelation")
     public List<Relation> RelationSelect(){
         return relationMapper.selectList(null);
     }

@@ -4,11 +4,12 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.entity.Relation;
 import com.example.entity.TreeNode;
 import com.example.entity.member;
+import com.github.jeffreyning.mybatisplus.base.MppBaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 @Mapper
-public interface RelationMapper extends BaseMapper<Relation> {
+public interface RelationMapper extends MppBaseMapper<Relation> {
     default void RebuildFamilyTree(MemberMapper memberMapper, TreeNode node) {
         int member_Id = node.getMember().getMember_Id();
         // 查询关系表中当前成员的变更情况
