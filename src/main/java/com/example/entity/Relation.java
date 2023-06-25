@@ -1,5 +1,8 @@
 package com.example.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,7 +23,8 @@ import org.springframework.stereotype.Component;
 @NoArgsConstructor//无参构造注解
 //@TableName("Relation")
 public class Relation {
-    private int Member_Id1;
+    @TableId(value = "Member_Id1",type = IdType.INPUT)
+    private Integer Member_Id1;
     private int Member_Id2;
     private int Relation_Id;
     private String RelationType;

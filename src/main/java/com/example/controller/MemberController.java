@@ -53,6 +53,7 @@ public class MemberController {
         return "hello";
     }
     //查询列表 这里直接一口气查询所有家谱成员 因为单独查询在Service层里实现了。
+    @RequestMapping("/SelectMember")
     public List<member> MemeberSelect(){
         return memberMapper.selectList(null);
     }

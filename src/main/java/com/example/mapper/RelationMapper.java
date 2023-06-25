@@ -21,10 +21,10 @@ public interface RelationMapper extends BaseMapper<Relation> {
             // 将对应成员的Mother_id或Father_id置为0
             if (memberMapper.selectById(relation.getMember_Id2()).getSex().equals("女"))
             member.setMother_ID(0);
-            else if(memberMapper.selectById(relation.getMember_Id2()).getSex().equals("女"))
+            else if(memberMapper.selectById(relation.getMember_Id2()).getSex().equals("男"))
             member.setFather_ID(0);
             // 更新数据库中对应成员的Mother_id和Father_id字段
-            updateById(member);
+            memberMapper.updateById(member);
 
             // 调用MemberMapper接口中的方法构造树
             memberMapper.buildFamilyTree(node);
