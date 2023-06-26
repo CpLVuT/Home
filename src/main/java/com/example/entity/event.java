@@ -24,7 +24,7 @@ public class event {
     所以使用了 联合主键
      */
     @MppMultiId
-    private Integer Member_Id;//
+    private Integer Member_Id;
     private String Event_Time;
     @MppMultiId
     private int Event_Num;//直接使用分项目id代替事件类型；

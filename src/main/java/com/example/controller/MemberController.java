@@ -9,6 +9,7 @@ import com.example.mapper.MemberMapper;
 import com.example.mapper.RelationMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -35,6 +36,7 @@ public class MemberController {
     /*
     在这里完成增删改查
      */
+    @GetMapping("/Result")
     public String MemberInsert(int Member_Id, String Name, String Sex, String Birth, String Death, int Mother_Id, int Father_ID) {
         return memberMapper.insert(new member(Name, Sex, Birth, Death, Member_Id, Mother_Id, Father_ID)) > 0 ? "成功！" : "失败！";
         //insert函数的返回值本来应当是整数弧，我在这里为了看到结果加了成功或者失败 因而是String类型
@@ -64,6 +66,7 @@ public class MemberController {
         return relationMapper.selectList(null);
     }
     //删除特定成员
+
     public String MemberDel(int Member_id){
         return memberMapper.deleteById(Member_id)>0?"成功！":"失败!";
     }
