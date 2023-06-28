@@ -6,6 +6,99 @@
   <component name="ChangeListManager">
     <list default="true" id="5ce06953-de20-4731-b162-bea1c61fdadc" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Relation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/EventMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/RelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/SocketDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/ApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Home-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Home-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Home-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Springboottest-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Springboottest-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Relation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mapper/EventMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mapper/MemberMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mapper/RelationMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/MemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/pages/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-38-01_952.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-39-54_288.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-41-42_006.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-43-39_462.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-44-03_512.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-20T08-44-53_810.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-20T08-45-44_193.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T16-43-07_426.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T17-43-00_206.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T17-49-33_441.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T17-59-34_132.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T18-19-04_941.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T18-56-56_307.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T19-00-25_340.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T19-06-22_365.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T19-08-18_172.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.ApplicationTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.ApplicationTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/ApplicationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/config/test.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/custom-assertions/elementCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/nightwatch.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/specs/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/jest.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/specs/HelloWorld.spec.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +124,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2RZTxpHCgpJSU7sY49MJdzD863p" />
   <component name="ProjectViewState">
@@ -52,6 +145,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -120,6 +214,9 @@
       <workItem from="1687697316542" duration="617000" />
       <workItem from="1687701730105" duration="198000" />
       <workItem from="1687740721424" duration="21000" />
+      <workItem from="1687877053200" duration="447000" />
+      <workItem from="1687958314208" duration="95000" />
+      <workItem from="1687958885904" duration="794000" />
     </task>
     <servers />
   </component>
