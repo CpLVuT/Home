@@ -14,15 +14,9 @@ import lombok.Data;
 @TableName(value ="person_type")
 @Data
 public class PersonType implements Serializable {
-    /**
-     * 
-     */
+
     @TableId
     private Integer id;
-
-    /**
-     * 
-     */
     private String name;
 
     @TableField(exist = false)

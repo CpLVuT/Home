@@ -58,7 +58,7 @@ public class FamilyPerson implements Serializable {
     private String avatar;
 
     /**
-     * 
+     *头像
      */
     private String isDel;
 

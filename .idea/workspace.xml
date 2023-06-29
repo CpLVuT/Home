@@ -5,105 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ce06953-de20-4731-b162-bea1c61fdadc" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bb69ebbe-5789-4fd6-8e07-1b50ec8331ea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bb69ebbe-5789-4fd6-8e07-1b50ec8331ea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/MemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Relation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/user.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/EventMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/MemberMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/RelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/SocketDemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/ApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Home-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Home-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Home-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Springboottest-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Springboottest-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/MemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Relation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mapper/EventMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mapper/MemberMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mapper/RelationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/pages/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/FamilytreeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/FamilyPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/FamilyPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/PersonEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/PersonEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/PersonType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/PersonType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/PersonView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/entity/PersonView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/EventTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/EventTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/FamilyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/FamilyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/FamilyPersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/FamilyPersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/PersonEventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/PersonEventMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/PersonRelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/PersonRelationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/PersonTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/PersonTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/familytree/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/FamilytreeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/FamilytreeApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/EventType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/EventType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/Family.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/Family.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/FamilyPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/FamilyPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/PersonEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/PersonEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/PersonRelation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/PersonRelation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/PersonType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/PersonType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/PersonView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/PersonView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/EventTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/EventTypeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/FamilyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/FamilyMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/FamilyPersonMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/FamilyPersonMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/PersonEventMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/PersonEventMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/PersonRelationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/PersonRelationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/PersonTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/PersonTypeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/familytree/mapper/UserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-38-01_952.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-39-54_288.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-41-42_006.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-43-39_462.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-19T21-44-03_512.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-20T08-44-53_810.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-20T08-45-44_193.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T16-43-07_426.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T17-43-00_206.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T17-49-33_441.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T17-59-34_132.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T18-19-04_941.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T18-56-56_307.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T19-00-25_340.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T19-06-22_365.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-21T19-08-18_172.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.ApplicationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.ApplicationTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/ApplicationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/.postcssrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/check-versions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/vue-loader.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/webpack.base.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/webpack.dev.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/build/webpack.prod.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/config/dev.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/config/prod.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/config/test.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/static/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/custom-assertions/elementCount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/nightwatch.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/runner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/e2e/specs/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/jest.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/setup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vueClickDemo/test/unit/specs/HelloWorld.spec.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,41 +72,44 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2RZTxpHCgpJSU7sY49MJdzD863p" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/我的文档/Tencent Files/2682836079/FileRecv/Myvue",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/我的文档/Tencent Files/2682836079/FileRecv/Myvue&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fe01ce2a7fbac8fafaed7c982a04e229&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -169,7 +120,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="Spring Boot.FamilytreeApplication">
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.DemoApplication" />
@@ -186,10 +137,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FamilytreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.familytree.FamilytreeApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.familytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
+      <item itemvalue="Spring Boot.FamilytreeApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.FamilytreeApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -216,7 +188,12 @@
       <workItem from="1687740721424" duration="21000" />
       <workItem from="1687877053200" duration="447000" />
       <workItem from="1687958314208" duration="95000" />
-      <workItem from="1687958885904" duration="794000" />
+      <workItem from="1687958885904" duration="3461000" />
+      <workItem from="1687964141569" duration="1392000" />
+      <workItem from="1688006425328" duration="3885000" />
+      <workItem from="1688019798214" duration="1560000" />
+      <workItem from="1688024797151" duration="81000" />
+      <workItem from="1688037868018" duration="3681000" />
     </task>
     <servers />
   </component>

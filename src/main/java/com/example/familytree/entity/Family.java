@@ -15,30 +15,15 @@ import lombok.Data;
 @TableName(value ="family")
 @Data
 public class Family implements Serializable {
-    /**
-     * 
-     */
+
     @TableId
     private Integer id;
 
-    /**
-     * 
-     */
     private Integer userId;
 
-    /**
-     * 
-     */
     private String desc;
 
-    /**
-     * 
-     */
     private Date createTime;
-
-    /**
-     * 
-     */
     private String isDel;
 
     @TableField(exist = false)

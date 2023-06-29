@@ -21,29 +21,11 @@ public class PersonEvent implements Serializable {
     @TableId
     private Integer personId;
 
-    /**
-     * 
-     */
     private Date eventDate;
 
-    /**
-     * 
-     */
     private String type;
-
-    /**
-     * 
-     */
     private String desc;
-
-    /**
-     * 
-     */
     private String annex;
-
-    /**
-     * 
-     */
     private String isDel;
 
     @TableField(exist = false)

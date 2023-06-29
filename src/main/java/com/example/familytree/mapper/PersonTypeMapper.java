@@ -8,7 +8,6 @@ import org.apache.ibatis.annotations.Mapper;
 /**
 * @author admin
 * @description 针对表【person_type】的数据库操作Mapper
-* @createDate 2023-06-28 14:19:25
 * @Entity .PersonType
 */
 @Mapper
