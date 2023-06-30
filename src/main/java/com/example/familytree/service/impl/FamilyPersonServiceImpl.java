@@ -1,9 +1,12 @@
 package com.example.familytree.service.impl;
 
 
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
+import com.example.familytree.config.ResponseResult;
 import com.example.familytree.entity.FamilyPerson;
 import com.example.familytree.entity.PersonView;
 import com.example.familytree.mapper.FamilyPersonMapper;
@@ -11,10 +14,12 @@ import com.example.familytree.service.FamilyPersonService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import javax.xml.ws.Response;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
 * @author admin
@@ -29,7 +34,7 @@ public class FamilyPersonServiceImpl implements FamilyPersonService {
     public List<PersonView> getHierarchyList(int familyId) {
         // 根据家族ID获取全部人员
         List<FamilyPerson> allPersonList = familyPersonMapper.selectList(Wrappers.lambdaQuery(FamilyPerson.class).eq(FamilyPerson::getFamilyId, familyId));
-        //我在这里首次使用lambda表达式中的双引号 减少了括号是为了提高代码可读出性
+
         // 找到根节点，即ID最小人员为根节点
         FamilyPerson rootPerson = allPersonList.stream().min(Comparator.comparing(FamilyPerson::getId)).orElse(null);
         //创建根list
@@ -62,6 +67,12 @@ public class FamilyPersonServiceImpl implements FamilyPersonService {
 
     @Override
     public String insertFamilyPerson(FamilyPerson familyPerson) {
+        if (familyPerson.getSex().equals("男")){
+            familyPerson.setSex("M");
+        }else{
+            familyPerson.setSex("F");
+        }
+        familyPerson.setIsDel("0");
         familyPersonMapper.insert(familyPerson);
         return "新增成功";
     }
@@ -79,8 +90,19 @@ public class FamilyPersonServiceImpl implements FamilyPersonService {
     }
 
     @Override
-    public List<FamilyPerson> selectFamilyPerson() {
-        return familyPersonMapper.selectList(Wrappers.lambdaQuery(FamilyPerson.class));
+    public ResponseResult selectFamilyPerson(Integer limit,Integer page,String id) {
+        Page<FamilyPerson> page1 = new Page<>(page,limit);
+        familyPersonMapper.selectPage(page1,Wrappers.lambdaQuery(FamilyPerson.class).eq(!StringUtils.isBlank(id),FamilyPerson::getId,id));
+        //转换下性别
+        page1.getRecords().stream().map(e -> {
+           if (e.getSex().equals("M")){
+               e.setSex("男");
+           }else{
+               e.setSex("女");
+           }
+           return e;
+        }).collect(Collectors.toList());
+        return ResponseResult.success(page1);
     }
 
     private void buildHierarchy(List<PersonView> rootPeronViewList) {

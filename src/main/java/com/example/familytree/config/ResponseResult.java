@@ -4,16 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.io.Serializable;
-/*
-规范化后端接口的返回格式，使得前端或其他调用能够更方便地解析和处理返回结果。
- */
+
 @Data
 @AllArgsConstructor
 public class ResponseResult<T> implements Serializable {
     private static final long serialVersionUID = -6433659870842666438L;
     private final static String RESPONSE_TYPE = "application/json;charset=utf-8";
-    /*
-     返回状态码
+    /**
+     * 返回状态码
      */
     private Integer code;
     /**
@@ -69,6 +67,10 @@ public class ResponseResult<T> implements Serializable {
     public static <T> ResponseResult<T> fail(String message) {
         return new ResponseResult<T>(50000, message, null);
     }
+
+
+
+
     @Override
     public String toString() {
         return "ResponseResult{" +

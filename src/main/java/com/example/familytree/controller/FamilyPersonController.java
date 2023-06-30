@@ -1,5 +1,6 @@
 package com.example.familytree.controller;
 
+import com.example.familytree.config.ResponseResult;
 import com.example.familytree.entity.Family;
 import com.example.familytree.entity.FamilyPerson;
 import com.example.familytree.service.FamilyPersonService;
@@ -7,6 +8,7 @@ import com.example.familytree.service.FamilyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -27,13 +29,18 @@ public class FamilyPersonController {
         return familyPersonService.delFamilyPerson(id);
     }
     //改
-    @PostMapping("/updateFamilyPerson")
-    public String updateFamilyPerson(FamilyPerson familyPerson){
-        return familyPersonService.updateFamilyPerson(familyPerson);
+    @PostMapping("/submitOrUpdateFamilyPerson")
+    public ResponseResult updateFamilyPerson(@RequestBody FamilyPerson familyPerson){
+        if (familyPerson.getId() == null){
+            familyPersonService.insertFamilyPerson(familyPerson);
+        }else{
+            familyPersonService.updateFamilyPerson(familyPerson);
+        }
+        return ResponseResult.success(null);
     }
     //查
-    @GetMapping("/familyPersonList")
-    public List<FamilyPerson> familyPersonList(){
-        return familyPersonService.selectFamilyPerson();
+    @PostMapping("/familyPersonList")
+    public ResponseResult familyPersonList(Integer limit,Integer page,String id){
+        return familyPersonService.selectFamilyPerson(limit,page,id);
     }
 }

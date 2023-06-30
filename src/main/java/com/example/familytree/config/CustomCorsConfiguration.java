@@ -20,7 +20,7 @@ public class CustomCorsConfiguration {
         CorsConfiguration configuration = new CorsConfiguration();
 
         // 设置允许跨域的域名,如果允许携带cookie的话,路径就不能写*号, *表示所有的域名都可以跨域访问
-        configuration.setAllowedOrigins(Collections.singletonList("*"));
+        configuration.setAllowedOriginPatterns(Collections.singletonList("*"));
         // 设置跨域访问可以携带cookie
         configuration.setAllowCredentials(true);
         // 允许所有的请求方法 ==> GET POST PUT Delete

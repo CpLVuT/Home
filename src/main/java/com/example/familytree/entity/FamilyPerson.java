@@ -8,9 +8,11 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * 
@@ -24,7 +26,7 @@ public class FamilyPerson implements Serializable {
     /**
      * 
      */
-    @TableId
+    @TableId(type = IdType.AUTO)
     private Integer id;
 
     /**
@@ -45,11 +47,21 @@ public class FamilyPerson implements Serializable {
     /**
      * 
      */
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(
+            pattern = "yyyy-MM-dd",
+            timezone = "GMT+8"
+    )
     private Date birthDate;
 
     /**
      * 
      */
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(
+            pattern = "yyyy-MM-dd",
+            timezone = "GMT+8"
+    )
     private Date deathDate;
 
     /**
@@ -58,7 +70,7 @@ public class FamilyPerson implements Serializable {
     private String avatar;
 
     /**
-     *头像
+     * 
      */
     private String isDel;
 
@@ -120,4 +132,5 @@ public class FamilyPerson implements Serializable {
         sb.append("]");
         return sb.toString();
     }
+
 }

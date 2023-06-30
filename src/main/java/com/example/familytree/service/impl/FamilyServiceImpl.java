@@ -2,9 +2,13 @@ package com.example.familytree.service.impl;
 
 
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
+import com.example.familytree.config.ResponseResult;
 import com.example.familytree.entity.EventType;
 import com.example.familytree.entity.Family;
 import com.example.familytree.mapper.FamilyMapper;
@@ -12,6 +16,7 @@ import com.example.familytree.service.FamilyService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -25,26 +30,32 @@ public class FamilyServiceImpl implements FamilyService {
     private FamilyMapper familyMapper;
 
     @Override
-    public String insertFamily(Family family) {
+    public ResponseResult insertFamily(Family family) {
+        family.setUserId(1);
+        family.setCreateTime(new Date());
+        family.setIsDel("0");
         familyMapper.insert(family);
-        return "新增成功";
+        return ResponseResult.success("新增成功");
     }
 
     @Override
-    public String delFamily(String id) {
+    public ResponseResult delFamily(String id) {
         familyMapper.deleteById(id);
-        return "删除成功";
+        return ResponseResult.success("");
     }
 
     @Override
-    public String updateFamily(Family family) {
+    public ResponseResult updateFamily(Family family) {
         familyMapper.updateById(family);
-        return "更新成功";
+        return ResponseResult.success(null);
     }
 
     @Override
-    public List<Family> selectFamily() {
-        return familyMapper.selectList(Wrappers.lambdaQuery(Family.class));
+    public ResponseResult selectFamily(String id,Integer litmit,Integer page) {
+        Page<Family> page1 = new Page<>(page,litmit);
+        familyMapper.selectPage(page1,Wrappers.lambdaQuery(Family.class).eq(!StringUtils.isBlank(id),Family::getId,id));
+
+        return ResponseResult.success(page1);
     }
 }
 

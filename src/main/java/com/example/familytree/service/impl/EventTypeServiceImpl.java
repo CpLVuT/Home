@@ -16,6 +16,7 @@ import java.util.List;
 /**
 * @author admin
 * @description 针对表【event_type】的数据库操作Service实现
+* @createDate 2023-06-28 14:17:50
 */
 @Service
 public class EventTypeServiceImpl  implements EventTypeService {
@@ -43,9 +44,6 @@ public class EventTypeServiceImpl  implements EventTypeService {
     @Override
     public List<EventType> selectEventTypeList() {
         return eventTypeMapper.selectList(Wrappers.lambdaQuery(EventType.class));
-        /**
-         *使用 Wrappers.lambdaQuery 可以更加便捷地编写查询条件，并且避免了直接编写字符串的错误
-         */
     }
 }
 

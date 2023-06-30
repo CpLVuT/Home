@@ -1,38 +1,38 @@
 package com.example.familytree.controller;
 
+import com.example.familytree.config.ResponseResult;
 import com.example.familytree.entity.EventType;
 import com.example.familytree.entity.Family;
 import com.example.familytree.service.FamilyService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@Slf4j
 public class FamilyController {
     @Autowired
     private FamilyService familyService;
 
-    //增
-    @PostMapping("/insertFamily")
-    public String insertFamily(Family family){
-        return familyService.insertFamily(family);
-    }
+
     //删
     @PostMapping("/delFamily")
-    public String delFamily(String id){
+    public ResponseResult delFamily(String id){
         return familyService.delFamily(id);
     }
-    //改
-    @PostMapping("/updateFamily")
-    public String updateFamily(Family family){
-        return familyService.updateFamily(family);
-    }
+
     //查
-    @GetMapping("familyList")
-    public List<Family> familyList(){
-        return familyService.selectFamily();
+    @PostMapping("familyList")
+    public ResponseResult familyList(String id,Integer limit,Integer page){
+        return familyService.selectFamily(id,limit,page);
+    }
+    @PostMapping("/submitOrUpdateFamily")
+    public ResponseResult submitOrUpdate(@RequestBody Family family){
+         if (family.getId() == null){
+             return familyService.insertFamily(family);
+         }
+        return familyService.updateFamily(family);
     }
 }

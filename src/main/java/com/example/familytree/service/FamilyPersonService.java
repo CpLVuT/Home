@@ -2,6 +2,7 @@ package com.example.familytree.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.familytree.config.ResponseResult;
 import com.example.familytree.entity.EventType;
 import com.example.familytree.entity.FamilyPerson;
 import com.example.familytree.entity.PersonView;
@@ -23,5 +24,5 @@ public interface FamilyPersonService {
     //改
     public String updateFamilyPerson(FamilyPerson familyPerson);
     //查
-    public List<FamilyPerson> selectFamilyPerson();
+    public ResponseResult selectFamilyPerson(Integer limit,Integer page,String id);
 }
