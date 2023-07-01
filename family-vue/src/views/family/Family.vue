@@ -67,7 +67,13 @@ export default {
       fshow: false, //switch关闭
       loading: false, //是显示加载
       editFormVisible: false, //控制编辑页面显示与隐藏
+      /*
+      上面部分不是很重要。
+       */
       title: '添加',
+      /*
+      表单数据对象信息 token的含义不再强调。
+       */
       editForm: {
         id: '',
         userId: '',
@@ -75,12 +81,15 @@ export default {
         createTime: '',
         token: localStorage.getItem('logintoken')
       },
-      // rules表单验证
+      // rules表单验证是否为空 如果为空就弹出来。也不是很重要。
       rules: {
         deptName: [
           { required: true, message: '请输入部门名称', trigger: 'blur' }
         ]
       },
+      /*
+      分页相关 一页十个 锦上添花罢了。
+       */
       formInline: {
         page: 1,
         limit: 10,
@@ -126,6 +135,9 @@ export default {
     getdata(parameter) {
       console.log(parameter);
       this.loading = true
+      /*
+      我们声明过的代码 还记得吗在basisMG里。
+       */
       FamilyList(parameter)
       .then(res => {
           this.loading = false
@@ -142,13 +154,16 @@ export default {
             this.pageparm.total = res.data.total
           }
         })
+        /*
+        如果商户没能获取到家族数据的话 就在这里弹出失败。
+         */
         .catch(err => {
           this.loading = false
           this.$message.error('菜单加载失败，请稍后再试！')
         })
 
     },
-    // 分页插件事件
+    // 分页插件事件 这一部分是抄的。为了锦上添花乱写的
     callFather(parm) {
       this.formInline.page = parm.currentPage
       this.formInline.limit = parm.pageSize
@@ -175,6 +190,9 @@ export default {
     // 编辑、增加页面保存方法
     submitForm(editData) {
       this.$refs[editData].validate(valid => {
+        /*
+        验证表单是否合乎规定
+         */
         if (valid) {
           // 发送POST请求给后端
           fetch('http://localhost:9999/submitOrUpdateFamily', {
@@ -184,10 +202,16 @@ export default {
             },
             body: JSON.stringify(this.editForm),
           })
+            /*
+            判断回传的json（response result的返回值）
+             */
             .then(response => response.json())
             .then(data => {
               this.editFormVisible = false
               this.loading = false
+              /*
+              code10000是我重写后端的多次使用的成功代码标记。
+               */
               if (data.code == 10000) {
                 this.$message({
                   type: 'success',
@@ -267,5 +291,4 @@ export default {
 }
 </style>
 
- 
- 
+

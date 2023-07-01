@@ -28,6 +28,7 @@ public class FamilyController {
     public ResponseResult familyList(String id,Integer limit,Integer page){
         return familyService.selectFamily(id,limit,page);
     }
+    //插入或者更改的函数 如果不存在则更改。
     @PostMapping("/submitOrUpdateFamily")
     public ResponseResult submitOrUpdate(@RequestBody Family family){
          if (family.getId() == null){
